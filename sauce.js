@@ -31,9 +31,8 @@ class Sauce extends HTMLElement {
 		let srcDiv = document.createElement('div');
 		let srcLink = document.createElement('a');
 		srcDiv.appendChild(srcLink);
-		srcLink.setAttribute('href', 'https://github.com/' + repo + '/blob/' + branch + '/' + file + '#L' + startLine + '-L' + endLine);
+		srcLink.setAttribute('href', 'https://github.com/' + repo + '/blob/' + branch + '/' + file + '#L' + (startLine +1) + '-L' + endLine);
 		srcLink.innerText = file;
-		srcDiv.style.marginTop = '1em';
 		srcDiv.style.marginBottom = '1em';
 		this.shadowRoot.append(style, pre, srcDiv);
 

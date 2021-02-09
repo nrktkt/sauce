@@ -49,3 +49,9 @@ Previews of themes are [here](https://highlightjs.org/static/demo/).
   theme='monokai-sublime'
   lines='29:33'
 ></sauce-code>
+
+## Other goodies
+
+### The source file link after the snippet links directly to the specified lines in the file
+
+![](gh-ss.png)
