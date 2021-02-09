@@ -9,7 +9,7 @@ All client side, all free and open source.
 ```
 
 <script type='module' src="https://kag0.github.io/sauce/sauce.js">
-<h1> [If you're reading this, click here](https://kag0.github.io/sauce)</h1>
+<h1><a href='https://kag0.github.io/sauce'>If you're reading this, click here</a></h1>
 </script>
 
 ## Embedding a file
