@@ -1,4 +1,4 @@
-import hljs from 'https://cdn.skypack.dev/highlight.js@10.6.0';
+import hljs from 'https://cdn.skypack.dev/highlight.js@11.1.0';
 
 class Sauce extends HTMLElement {
 	constructor() {
@@ -23,10 +23,10 @@ class Sauce extends HTMLElement {
 			code.classList.add('lang-'+lang);
 		}
 			
-		let theme = this.hasAttribute('theme') ? this.getAttribute('theme') : 'tomorrow';
+		let theme = this.hasAttribute('theme') ? this.getAttribute('theme') : 'base16/tomorrow';
 		let style = document.createElement('link');
 		style.setAttribute('rel', 'stylesheet');
-		style.setAttribute('href', 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/' + theme + '.min.css');
+		style.setAttribute('href', 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/' + theme + '.min.css');
 
 		let srcDiv = document.createElement('div');
 		let srcLink = document.createElement('a');
