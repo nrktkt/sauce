@@ -39,7 +39,7 @@ class Sauce extends HTMLElement {
 		fetch('https://raw.githubusercontent.com/' + repo + '/' + branch + '/' + file)
 			.then(response => response.text())
 			.then(src => src.split('\n').slice(startLine, endLine).join('\n'))
-			.then(src => code.innerText = src)
+			.then(src => code.textContent = src)
 			.then(_ => hljs.highlightBlock(code));
 	}
 }

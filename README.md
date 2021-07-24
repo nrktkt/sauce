@@ -5,10 +5,10 @@ All client side, all free and open source.
 ## Importing
 
 ```html
-<script type='module' src="https://cdn.jsdelivr.net/gh/kag0/sauce@10.6.0/sauce.js"></script>
+<script type='module' src="https://kag0.github.io/sauce/sauce.js"></script>
 ```
 
-<script type='module' src="https://cdn.jsdelivr.net/gh/kag0/sauce@10.6.0/sauce.js">
+<script type='module' src="https://cdn.jsdelivr.net/gh/kag0/sauce@11.1.0/sauce.js">
 <h1><a href='https://kag0.github.io/sauce'>If you're reading this, click here</a></h1>
 </script>
 
