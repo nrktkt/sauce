@@ -5,17 +5,17 @@ All client side, all free and open source.
 ## Importing
 
 ```html
-<script type='module' src="https://kag0.github.io/sauce/sauce.js"></script>
+<script type='module' src="https://nrktkt.github.io/sauce/sauce.js"></script>
 ```
 
-<script type='module' src="https://cdn.jsdelivr.net/gh/kag0/sauce@11.1.0/sauce.js">
-<h1><a href='https://kag0.github.io/sauce'>If you're reading this, click here</a></h1>
+<script type='module' src="https://cdn.jsdelivr.net/gh/nrktkt/sauce@11.1.0/sauce.js">
+<h1><a href='https://nrktkt.github.io/sauce'>If you're reading this, click here</a></h1>
 </script>
 
 ## Embedding a file
 
 <sauce-code
-  repo='kag0/sauce' 
+  repo='nrktkt/sauce' 
   file='example.html'
   lines='12:15'
 ></sauce-code>
@@ -23,7 +23,7 @@ All client side, all free and open source.
 ## Overriding the language detection
 
 <sauce-code
-  repo='kag0/sauce' 
+  repo='nrktkt/sauce' 
   file='example.html'
   lines='17:21'
 ></sauce-code>
@@ -31,7 +31,7 @@ All client side, all free and open source.
 ## Embedding a snippet from a file
 
 <sauce-code
-  repo='kag0/sauce' 
+  repo='nrktkt/sauce' 
   file='example.html'
   lines='23:27'
 ></sauce-code>
@@ -44,7 +44,7 @@ Previews of themes are [here](https://highlightjs.org/static/demo/).
 
 <sauce-code
   lang='html'
-  repo='kag0/sauce' 
+  repo='nrktkt/sauce' 
   file='example.html'
   theme='monokai-sublime'
   lines='29:33'
